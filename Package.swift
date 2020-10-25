@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
@@ -15,7 +15,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.4.0"),
         .package(url: "https://github.com/apple/swift-nio-http2.git", from: "1.13.0"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
-        .package(url: "https://github.com/vapor/jwt-kit.git", from: "4.0.0"),
+        .package(url: "https://github.com/jfdream/jwt-kit.git", from: "5.0.1"),
     ],
     targets: [
         .target(name: "APNSwiftExample", dependencies: [
