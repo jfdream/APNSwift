@@ -212,8 +212,7 @@ public final class APNSwiftConnection: APNSwiftClient {
         }
     }
 
-    var onClose: EventLoopFuture<Void> {
-        logger?.debug("Connection - closed")
+    public var onClose: EventLoopFuture<Void> {
         return self.channel.closeFuture
     }
 
